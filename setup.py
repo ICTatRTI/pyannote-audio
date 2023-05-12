@@ -50,7 +50,7 @@ setup(
         ],
     },
 
-    version=versioneer.get_version(),
+    version='656997c',
     cmdclass=versioneer.get_cmdclass(),
 
     description='Neural building blocks for speaker diarization',
