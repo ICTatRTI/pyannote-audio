@@ -50,16 +50,16 @@ setup(
         ],
     },
 
-    version='0.0.1',
+    version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
 
     description='Neural building blocks for speaker diarization',
     long_description=long_description,
     long_description_content_type='text/markdown',
 
-    author='Erik Surface',
-    author_email='esurface@rti.org',
-    url='https://github.com/ICTatRTI/pyannote-audio',
+    author='Hervé Bredin',
+    author_email='bredin@limsi.fr',
+    url='https://github.com/pyannote/pyannote-audio',
 
     classifiers=[
         "Development Status :: 4 - Beta",
